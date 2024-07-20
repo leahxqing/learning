@@ -19,7 +19,7 @@
   - Directed
     - in-degree
     - out-degree
-    - $\bar{k}=\frac{1}{N} \sum _{i=1}^N k _i=\frac{E}{N}$
+    - $\bar{k}=\frac{1}{N} \sum\ _{i=1}^N k _i=\frac{E}{N}$
   - Bipartite graph
   - Folded/Projected Bipartite Graphs
   - Ontology
@@ -49,7 +49,7 @@
   - A node is important if it lies on the shortest paths between other nodes
 
     $$
-    c _v= \sum _{s\ne v\ne t}\frac{\text{\#(shortest paths between s and t that contain v)}}{\text{\#(shortest paths between s and t)}}
+    c _v= \sum _{s\ne v\ne t}\frac{\#\ (shortest\ paths\ between\ s\ and\ t\ that\ contain\ v)}}{\#\ (shortest\ paths\ between\ s\ and\ t)}}
     $$
 
 - Closeness Centrality
@@ -57,7 +57,7 @@
   - A node is important if it has the smallest shortest path lengths to all other nodes
 
     $$
-    c _v=\frac{1}{ \sum _{u\ne v}\text{shortest path length between u and v}}
+    c _v=\frac{1}{ \sum _{u\ne v}\ shortest\ path\ length\ between\ u\ and\ v}
     $$
 
 ### Node Features
@@ -69,7 +69,7 @@
   - Measures how connected $v$’s neighboring nodes are
 
     $$
-    e _v=\frac{\#\text{edges among neighboring nodes}}{\begin{pmatrix} k _v\\ 2 \end{pmatrix}}\in[0,1]
+    e _v=\frac{\#\ edges\ among\ neighboring\ node}}{\begin{pmatrix} k _v\\ 2 \end{pmatrix}}\in[0,1]
     $$
 
 - Graphlets
