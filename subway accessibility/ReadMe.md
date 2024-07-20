@@ -1,6 +1,6 @@
 # Subway Accessibility -- The Centrality Measure Based on `Netwrokx`
 
-- I learn this from the `networkx` online video [^1], which is the translated version of Standford course CS224W (Graphical Machine Learning)
+- I learn this from the `networkx` online video [^1: [图机器学习NetworkX代码实战-创建图和可视化_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1kM41147zV/?spm_id_from=333.999.0.0&vd_source=2b9e0f17be3c1cacca4a47dcc2f3b36e)], which is the translated version of Standford course CS224W (Graphical Machine Learning)
 - For the coding part, I use `python` jupyter notebook
 - I use the **Beijing** subway as an example try, while the website offers some processes for the **Shanghai** subway
 
@@ -15,11 +15,11 @@
 - Directed vs. Undirected Graphs
   - Undirected
     - node degree - the # of edges adjacent to node i
-    - avg. degree: $$\bar{k}=\dfrac{1}{N}\sum_{i=1}^N k_i=\dfrac{2E}{N}$$
+    - avg. degree: $$\bar{k}=\frac{1}{N}\sum_{i=1}^N k_i=\dfrac{2E}{N}$$
   - Directed
     - in-degree
     - out-degree
-    - $$\bar{k}=\dfrac{1}{N}\sum_{i=1}^N k_i=\dfrac{E}{N}$$
+    - $$\bar{k}=\frac{1}{N}\sum_{i=1}^N k_i=\dfrac{E}{N}$$
   - Bipartite graph
   - Folded/Projected Bipaetite Graphs
   - Ontology
