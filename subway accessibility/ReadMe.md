@@ -1,6 +1,6 @@
 # Subway Accessibility -- The Centrality Measure Based on `Netwrokx`
 
-- I learn this from the `networkx` online video [^[图机器学习NetworkX代码实战-创建图和可视化_哔哩哔哩_bilibili], which is the translated version of Standford course CS224W (Graphical Machine Learning)
+- I learn this from the `networkx` online video [^1], which is the translated version of Standford course CS224W (Graphical Machine Learning)
 - For the coding part, I use `python` jupyter notebook
 - I use the **Beijing** subway as an example try, while the website offers some processes for the **Shanghai** subway
 
@@ -15,11 +15,11 @@
 - Directed vs. Undirected Graphs
   - Undirected
     - node degree - the # of edges adjacent to node i
-    - avg. degree: $\bar{k}=\dfrac{1}{N}\sum_{i=1}^N k_i=\dfrac{2E}{N}$
+    - avg. degree: $$\bar{k}=\dfrac{1}{N}\sum_{i=1}^N k_i=\dfrac{2E}{N}$$
   - Directed
     - in-degree
     - out-degree
-    - $\bar{k}=\dfrac{1}{N}\sum_{i=1}^N k_i=\dfrac{E}{N}$
+    - $$\bar{k}=\dfrac{1}{N}\sum_{i=1}^N k_i=\dfrac{E}{N}$$
   - Bipartite graph
   - Folded/Projected Bipaetite Graphs
   - Ontology
@@ -34,27 +34,31 @@
 
 - Eigenvector centrality
 
-  - a node $v$ is important if surrounded by important neighboring nodes $u\in N(v)$
-  - centrality: $c_v=\dfrac{1}{\lambda}\sum_{u\in N(v)}c_u$
-    - $\lambda$ is normalization constant - will be the largest eigenvalue of A
+  - a node $$v$$ is important if surrounded by important neighboring nodes $$u\in N(v)$$
+  - centrality: $$c_v=\dfrac{1}{\lambda}\sum_{u\in N(v)}c_u$$
+    - $$\lambda$$ is normalization constant - will be the largest eigenvalue of A
   - recursive manner
-  - solution: $\lambda c=Ac$
-    - $A$ is the adjacency matrix
-    - $A_{uv} =1$  if $u\in N(v)$
-    - $c$ is the eigenvector of $A$
-    - Perron-Frobenius Theorem: always exist $\lambda_{max}$ → $c_{max}$
+  - solution: $$\lambda c=Ac$$
+    - $$A$$ is the adjacency matrix
+    - $$A_{uv} =1$$  if $$u\in N(v)$$
+    - $$c$$ is the eigenvector of $$A$$
+    - Perron-Frobenius Theorem: always exist $$\lambda_{max}$$ → $$c_{max}$$
 
 - Betweenness Centrality
 
   - A node is important if it lies on the shortest paths between other nodes
 
+
     $$ c_v=\sum_{s\ne v\ne t}\dfrac{\text{\#(shortest paths between s and t that contain v)}}{\text{\#(shortest paths between s and t)}} $$
+    
 
 - Closeness Centrality
 
   - A node if important if it has smallest shortest path lengths to all other nodes
 
+
     $$ c_v=\dfrac{1}{\sum_{u\ne v}\text{shortest path length between u and v}} $$
+    
 
 ### Node Features
 
@@ -62,9 +66,11 @@
 
 - Clustering Coefficient
 
-  - Measures how connected $v$’s neighboring nodes  are
+  - Measures how connected $$v$$’s neighboring nodes are
+ 
 
     $$ e_v=\dfrac{\#\text{edges among neighboring nodes}}{\begin{pmatrix} k_v\\ 2 \end{pmatrix}}\in[0,1] $$
+
 
 - Graphlets
 
@@ -101,4 +107,4 @@
 
 
 
-[^[图机器学习NetworkX代码实战-创建图和可视化_哔哩哔哩_bilibili]: https://www.bilibili.com/video/BV1kM41147zV/?spm_id_from=333.999.0.0&vd_source=2b9e0f17be3c1cacca4a47dcc2f3b36e
+[^1[图机器学习NetworkX代码实战-创建图和可视化_哔哩哔哩_bilibili]: https://www.bilibili.com/video/BV1kM41147zV/?spm_id_from=333.999.0.0&vd_source=2b9e0f17be3c1cacca4a47dcc2f3b36e
