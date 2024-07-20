@@ -15,7 +15,7 @@
 - Directed vs. Undirected Graphs
   - Undirected
     - node degree - the # of edges adjacent to node i
-    - avg. degree: $\bar{k}=\frac{1}{N} \sum _{i=1}^N k _i=\frac{2E}{N}$
+    - avg. degree: $\bar{k}=\frac{1}{N} \sum\ _{i=1}^N k _i=\frac{2E}{N}$
   - Directed
     - in-degree
     - out-degree
