@@ -15,11 +15,11 @@
 - Directed vs. Undirected Graphs
   - Undirected
     - node degree - the # of edges adjacent to node i
-    - avg. degree: $\bar{k}=\frac{1}{N} \sum_{i=1}^N k_i=\frac{2E}{N}$
+    - avg. degree: $\bar{k}=\frac{1}{N} \sum _{i=1}^N k _i=\frac{2E}{N}$
   - Directed
     - in-degree
     - out-degree
-    - $\bar{k}=\frac{1}{N} \sum_{i=1}^N k_i=\frac{E}{N}$
+    - $\bar{k}=\frac{1}{N} \sum _{i=1}^N k _i=\frac{E}{N}$
   - Bipartite graph
   - Folded/Projected Bipartite Graphs
   - Ontology
@@ -35,21 +35,21 @@
 - Eigenvector centrality
 
   - a node $v$ is important if surrounded by important neighboring nodes $u\in N(v)$
-  - centrality: $c_v=\frac{1}{\lambda} \sum_{u\in N(v)}c_u$
+  - centrality: $c _v=\frac{1}{\lambda} \sum _{u\in N(v)}c _u$
     - $\lambda$ is a normalization constant - will be the largest eigenvalue of $A$
   - recursive manner
   - solution: $\lambda c=Ac$
     - $A$ is the adjacency matrix
-    - $A_{uv} =1$  if $u\in N(v)$
+    - $A _{uv} =1$  if $u\in N(v)$
     - $c$ is the eigenvector of $A$
-    - Perron-Frobenius Theorem: always exist $\lambda_{max}$ → $c_{max}$
+    - Perron-Frobenius Theorem: always exist $\lambda _{max}$ → $c _{max}$
 
 - Betweenness Centrality
 
   - A node is important if it lies on the shortest paths between other nodes
 
     $$
-    c_v= \sum_{s\ne v\ne t}\frac{\text{\#(shortest paths between s and t that contain v)}}{\text{\#(shortest paths between s and t)}}
+    c _v= \sum _{s\ne v\ne t}\frac{\text{\#(shortest paths between s and t that contain v)}}{\text{\#(shortest paths between s and t)}}
     $$
 
 - Closeness Centrality
@@ -57,7 +57,7 @@
   - A node is important if it has the smallest shortest path lengths to all other nodes
 
     $$
-    c_v=\frac{1}{ \sum_{u\ne v}\text{shortest path length between u and v}}
+    c _v=\frac{1}{ \sum _{u\ne v}\text{shortest path length between u and v}}
     $$
 
 ### Node Features
@@ -69,7 +69,7 @@
   - Measures how connected $v$’s neighboring nodes are
 
     $$
-    e_v=\frac{\#\text{edges among neighboring nodes}}{\begin{pmatrix} k_v\\ 2 \end{pmatrix}}\in[0,1]
+    e _v=\frac{\#\text{edges among neighboring nodes}}{\begin{pmatrix} k _v\\ 2 \end{pmatrix}}\in[0,1]
     $$
 
 - Graphlets
@@ -103,4 +103,4 @@
 
   - You can imagine the first step is to generate the arrived station (station 2)
 
-[^1]: [图机器学习NetworkX代码实战-创建图和可视化_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1kM41147zV/?spm_id_from=333.999.0.0&vd_source=2b9e0f17be3c1cacca4a47dcc2f3b36e)
+[^1]: [图机器学习NetworkX代码实战-创建图和可视化 _哔哩哔哩 _bilibili](https://www.bilibili.com/video/BV1kM41147zV/?spm _id _from=333.999.0.0&vd _source=2b9e0f17be3c1cacca4a47dcc2f3b36e)
