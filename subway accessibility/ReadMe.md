@@ -1,6 +1,6 @@
 # Subway Accessibility -- The Centrality Measure Based on `Networkx`
 
-- I learned this from the `networkx` online video [^1](https://www.bilibili.com/video/BV1kM41147zV/?spm_id_from=333.999.0.0&vd_source=2b9e0f17be3c1cacca4a47dcc2f3b36e), which is the translated version of Stanford course CS224W (Graphical Machine Learning)
+- I learned this from the `networkx` online video [^1], which is the translated version of Stanford course CS224W (Graphical Machine Learning)
 - For the coding part, I use `python` Jupyter Notebook
 - I use the **Beijing** subway as an example, while the website offers some processes for the **Shanghai** subway
 
@@ -15,11 +15,11 @@
 - Directed vs. Undirected Graphs
   - Undirected
     - node degree - the # of edges adjacent to node i
-    - avg. degree: $\bar{k}=\frac{1}{N}\sum_{i=1}^N k_i=\frac{2E}{N}$
+    - avg. degree: $\bar{k}=\frac{1}{N} \sum_{i=1}^N k_i=\frac{2E}{N}$
   - Directed
     - in-degree
     - out-degree
-    - $\bar{k}=\frac{1}{N}\sum_{i=1}^N k_i=\frac{E}{N}$
+    - $\bar{k}=\frac{1}{N} \sum_{i=1}^N k_i=\frac{E}{N}$
   - Bipartite graph
   - Folded/Projected Bipartite Graphs
   - Ontology
@@ -35,7 +35,7 @@
 - Eigenvector centrality
 
   - a node $v$ is important if surrounded by important neighboring nodes $u\in N(v)$
-  - centrality: $c_v=\frac{1}{\lambda}\sum_{u\in N(v)}c_u$
+  - centrality: $c_v=\frac{1}{\lambda} \sum_{u\in N(v)}c_u$
     - $\lambda$ is a normalization constant - will be the largest eigenvalue of $A$
   - recursive manner
   - solution: $\lambda c=Ac$
@@ -49,7 +49,7 @@
   - A node is important if it lies on the shortest paths between other nodes
 
     $$
-    c_v=\sum_{s\ne v\ne t}\frac{\text{\#(shortest paths between s and t that contain v)}}{\text{\#(shortest paths between s and t)}}
+    c_v= \sum_{s\ne v\ne t}\frac{\text{\#(shortest paths between s and t that contain v)}}{\text{\#(shortest paths between s and t)}}
     $$
 
 - Closeness Centrality
@@ -57,7 +57,7 @@
   - A node is important if it has the smallest shortest path lengths to all other nodes
 
     $$
-    c_v=\frac{1}{\sum_{u\ne v}\text{shortest path length between u and v}}
+    c_v=\frac{1}{ \sum_{u\ne v}\text{shortest path length between u and v}}
     $$
 
 ### Node Features
