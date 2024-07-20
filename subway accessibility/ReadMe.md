@@ -60,6 +60,10 @@
     c _v=\frac{1}{ \sum _{u\ne v}\ shortest\ path\ length\ between\ u\ and\ v}
     $$
 
+    $$\begin{align\\*}
+      c _v=\frac{1}{ \sum _{u\ne v}\ shortest\ path\ length\ between\ u\ and\ v}
+   \end{align\\*}$$
+
 ### Node Features
 
 - Node Degree
