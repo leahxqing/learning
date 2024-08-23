@@ -49,7 +49,9 @@
   - A node is important if it lies on the shortest paths between other nodes
 
     ```latex
-     c\ _v= \sum\ _{s\ne v\ne t}\frac{\#\ (shortest\ paths\ between\ s\ and\ t\ that\ contain\ v)}}{\#\ (shortest\ paths\ between\ s\ and\ t)}}
+    \begin{equation*}
+     c_v= \sum\ _{s\ne v\ne t}\frac{\#\ (shortest\ paths\ between\ s\ and\ t\ that\ contain\ v)}}{\#\ (shortest\ paths\ between\ s\ and\ t)}}
+    \end{equation*}
     ```
 
 - Closeness Centrality
