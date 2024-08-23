@@ -48,22 +48,14 @@
 
   - A node is important if it lies on the shortest paths between other nodes
 
-    $$
-    
-  c_v = \sum_{s \neq v \neq t} \frac{\#(\text{shortest paths between } s \text{ and } t \text{ that contain } v)}{\#(\text{shortest paths between } s \text{ and } t)}
-  
-  $$
+    $$ c_v = \sum_{s \neq v \neq t} \frac{\#(\text{shortest paths between } s \text{ and } t \text{ that contain } v)}{\#(\text{shortest paths between } s \text{ and } t)} $$
 
 
 - Closeness Centrality
 
   - A node is important if it has the smallest shortest path lengths to all other nodes
 
-    $$
-    
-     c _v=\frac{1}{ \sum _{u\neq v}\ shortest\ path\ length\ between\ u\ and\ v}
-    
-    $$
+    $$ c _v=\frac{1}{ \sum _{u\neq v}\ shortest\ path\ length\ between\ u\ and\ v} $$
 
 ### Node Features
 
@@ -73,11 +65,7 @@
 
   - Measures how connected $v$’s neighboring nodes are
 
-    $$
-    
-e_v = \frac{\# \text{edges among neighboring nodes}}{\binom{k_v}{2}} \in [0,1]
-
-$$
+    $$ e_v = \frac{\# \text{edges among neighboring nodes}}{\binom{k_v}{2}} \in [0,1] $$
 
 
 - Graphlets
