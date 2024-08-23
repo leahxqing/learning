@@ -49,9 +49,8 @@
   - A node is important if it lies on the shortest paths between other nodes
 
     $$
-    c_v = \sum_{s \ne v \ne t} \frac{\# (\text{shortest paths between } s \text{ and } t \text{ that contain } v)}{\# (\text{shortest paths between } s \text{ and } t)}
     $$
-
+![](https://latex.codecogs.com/gif.image?\dpi{200}c_v=\sum_{s&space\ne&spacev&space\ne&spacet}\frac{\#&space(\text{shortest&spacepaths&spacebetween}s&space\text{and}&spacet\text{&spacethat&spacecontain}&spacev)}{\#(\text{shortest&spacepaths&spacebetween}s&space\text{and}&spacet)})
 
 - Closeness Centrality
 
