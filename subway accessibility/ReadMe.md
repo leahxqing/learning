@@ -48,7 +48,7 @@
 
   - A node is important if it lies on the shortest paths between other nodes
 
-    ```math
+    ```latex
      c\ _v= \sum\ _{s\ne v\ne t}\frac{\#\ (shortest\ paths\ between\ s\ and\ t\ that\ contain\ v)}}{\#\ (shortest\ paths\ between\ s\ and\ t)}}
     ```
 
