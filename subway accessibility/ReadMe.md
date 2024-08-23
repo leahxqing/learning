@@ -70,8 +70,9 @@
   - Measures how connected $v$’s neighboring nodes are
 
     $$
-e_v = \frac{\# \text{ edges among neighboring nodes}}{\begin{pmatrix} k_v \\ 2 \end{pmatrix}} \in [0,1]
+e_v = \frac{\# \text{edges among neighboring nodes}}{\binom{k_v}{2}} \in [0,1]
 $$
+
 
 
 - Graphlets
