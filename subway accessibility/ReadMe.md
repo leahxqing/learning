@@ -42,7 +42,7 @@
     - $A$ is the adjacency matrix
     - $A_{uv} =1$  if $u\in N(v)$
     - $c$ is the eigenvector of $A$
-    - Perron-Frobenius Theorem: always exist $\lambda_{max}$ → $c_{max}$
+    - Perron-Frobenius Theorem: always exist $\lambda_{max}\rightarrow c_{max}$
 
 - Betweenness Centrality
 
