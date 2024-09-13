@@ -47,17 +47,10 @@
 - Betweenness Centrality
 
   - A node is important if it lies on the shortest paths between other nodes
-<<<<<<< Updated upstream:projects/subway accessibility/ReadMe.md
 
    ```math
   c _v= \sum _{s\ne v\ne t}\frac{\#\ \text{shortest paths between} s \text{ and } t \text{ that contain }v}{\#\text{ shortest paths between }s\ \text{and } t)}
   ```
-=======
-    $$
-    c_v= \sum_{s\ne v\ne t}\frac{\#\ \text{shortest paths between} s \text{ and } t \text{ that contain }v}{\#\text{ shortest paths between }s\ \text{and } t)}
-    $$
-    
->>>>>>> Stashed changes:subway accessibility/ReadMe.md
 
 - Closeness Centrality
 
@@ -76,11 +69,7 @@
   - Measures how connected $v$’s neighboring nodes are
 
     ```math
-<<<<<<< Updated upstream:projects/subway accessibility/ReadMe.md
     e _v=\frac{\#\text{ edges among neighboring node}}{\begin{pmatrix} k _v\\ 2 \end{pmatrix}}\in[0,1]
-=======
-     e _v=\frac{\#\text{ edges among neighboring node}}{\begin{pmatrix} k _v\\ 2 \end{pmatrix}}\in[0,1]
->>>>>>> Stashed changes:subway accessibility/ReadMe.md
     ```
 
 
