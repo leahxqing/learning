@@ -49,7 +49,7 @@
   - A node is important if it lies on the shortest paths between other nodes
 
   $$
-  c_v= \sum_{s\ne v\ne t}\frac{\#\ \text{shortest paths between} s \text{ and } t \text{ that contain }v}{\#\text{ shortest paths between }s\ \text{and } t)}
+  c_v= \sum_{s\ne v\ne t}\frac{\#\ \text{shortest paths between } s \text{ and } t \text{ that contain }v}{\#\text{ shortest paths between }s\ \text{and } t)}
   $$
 
 - Closeness Centrality
@@ -57,7 +57,7 @@
   - A node is important if it has the smallest shortest path lengths to all other nodes
 
     $$
-     c_v=\frac{1}{ \sum_{u\ne v}\text{ shortest path length between }u\text{ and }v} 
+    c_v=\frac{1}{ \sum_{u\ne v}\text{ shortest path length between }u\text{ and }v}
     $$
 
 ### Node Features
