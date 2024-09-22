@@ -1,5 +1,7 @@
 # Subway Accessibility -- The Centrality Measure Based on `Networkx`
 
+> <font color=Brown>It's better to read this page in *Google* with the extension [`mathjax plugin for github`](https://chromewebstore.google.com/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima).</font>
+
 - I learned this from the `networkx` online video [^1], which is the translated version of Stanford course CS224W (Graphical Machine Learning)
 - For the coding part, I use `python` Jupyter Notebook
 - I use the **Beijing** subway as an example, while the website offers some processes for the **Shanghai** subway
