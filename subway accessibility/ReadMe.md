@@ -67,6 +67,7 @@
 - Clustering Coefficient
 
   - Measures how connected $v$’s neighboring nodes are
+  
     $$
     e_v=\frac{\#\text{ edges among neighboring node}}{\begin{pmatrix} k_v\\ 2 \end{pmatrix}}\in[0,1]
     $$
